@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(40, 40, 115);
+    height: 100vh;
+    text-align: center;
+}
+.big-heading{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+    color: #FEF2BF;
+}
+.main{
+display: flex;
+align-items: center;
+justify-content: center;
+/* background-color: rgb(25, 148, 255); */
+}
+.container{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50;
+    height: 500px;
+    width: 50%;
+}
+button{
+    background-color: black;
+}
+button:hover{
+    background-color: violet;
+}
+.box{
+    /* justify-content: space-evenly; */
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    /* background-color: rgb(188, 157, 0); */
+    border-radius: 50px;
+    border: 10px solid black;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
